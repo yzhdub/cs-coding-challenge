@@ -18,10 +18,6 @@ public class ServerLogProcessor implements ItemProcessor<ServerLog, EventDetail>
     @Override
     public EventDetail process(ServerLog serverLog) throws Exception {
         String id = serverLog.getId();
-//        final Long timeStamp = serverLog.getTimestamp();
-//        final String host = serverLog.getHost();
-//        final String type = serverLog.getType();
-//        final boolean alert = true;
 
         EventDetail eventDetail = null;
 
@@ -37,10 +33,6 @@ public class ServerLogProcessor implements ItemProcessor<ServerLog, EventDetail>
         } else {
             map.put(id, serverLog);
         }
-
-//        final EventDetail eventDetail = new EventDetail(id, 1, host, type, alert);
-//
-//        log.info("Converting (" + serverLog + ") into (" + eventDetail + ")");
 
         return eventDetail;
     }
