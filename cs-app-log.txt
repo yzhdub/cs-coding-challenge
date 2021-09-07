@@ -1,0 +1,24 @@
+11:53:33.095 [main] INFO  c.c.c.CSBatchProcessingApplication - STARTING CS BATCH APPLICATION
+11:53:33.687 [main] INFO  c.c.c.CSBatchProcessingApplication - Starting CSBatchProcessingApplication v0.0.1-SNAPSHOT using Java 11.0.12 on XIAOMIPRO with PID 25000 (D:\CS\cs-coding\target\cs-server-log-processing-0.0.1-SNAPSHOT.jar started by Yang in D:\CS\cs-coding)
+11:53:33.688 [main] INFO  c.c.c.CSBatchProcessingApplication - No active profile set, falling back to default profiles: default
+11:53:36.687 [main] INFO  c.c.c.CSBatchProcessingApplication - Started CSBatchProcessingApplication in 3.419 seconds (JVM running for 4.216)
+11:53:37.003 [main] INFO  c.c.c.n.JobCompletionNotificationListener - !!! JOB FINISHED! Time to verify the results
+11:53:37.006 [main] INFO  c.c.c.n.JobCompletionNotificationListener - Found <EventDetail(id=scsmbstgra, duration=5, type=12345, host=APPLICATION_LOG, alert=true)> in the database.
+11:53:37.007 [main] INFO  c.c.c.n.JobCompletionNotificationListener - Found <EventDetail(id=scsmbstgrc, duration=8, type=null, host=null, alert=true)> in the database.
+11:53:37.007 [main] INFO  c.c.c.n.JobCompletionNotificationListener - Found <EventDetail(id=scsmbstgrb, duration=4, type=null, host=null, alert=false)> in the database.
+11:56:14.586 [main] INFO  c.c.c.CSBatchProcessingApplication - STARTING CS BATCH APPLICATION
+11:56:15.287 [main] INFO  c.c.c.CSBatchProcessingApplication - Starting CSBatchProcessingApplication v0.0.1-SNAPSHOT using Java 11.0.12 on XIAOMIPRO with PID 20132 (D:\CS\cs-coding\target\cs-server-log-processing-0.0.1-SNAPSHOT.jar started by Yang in D:\CS\cs-coding)
+11:56:15.288 [main] INFO  c.c.c.CSBatchProcessingApplication - No active profile set, falling back to default profiles: default
+11:56:18.313 [main] INFO  c.c.c.CSBatchProcessingApplication - Started CSBatchProcessingApplication in 3.56 seconds (JVM running for 4.348)
+11:56:18.653 [main] INFO  c.c.c.n.JobCompletionNotificationListener - !!! JOB FINISHED! Time to verify the results
+11:56:18.657 [main] INFO  c.c.c.n.JobCompletionNotificationListener - Found <EventDetail(id=scsmbstgra, duration=5, type=12345, host=APPLICATION_LOG, alert=true)> in the database.
+11:56:18.657 [main] INFO  c.c.c.n.JobCompletionNotificationListener - Found <EventDetail(id=scsmbstgrc, duration=8, type=null, host=null, alert=true)> in the database.
+11:56:18.657 [main] INFO  c.c.c.n.JobCompletionNotificationListener - Found <EventDetail(id=scsmbstgrb, duration=4, type=null, host=null, alert=false)> in the database.
+12:28:21.516 [main] INFO  c.c.c.CSBatchProcessingApplication - STARTING CS BATCH APPLICATION
+12:28:22.164 [main] INFO  c.c.c.CSBatchProcessingApplication - Starting CSBatchProcessingApplication v0.0.1-SNAPSHOT using Java 11.0.12 on XIAOMIPRO with PID 23440 (D:\CS\cs-coding\target\cs-server-log-processing-0.0.1-SNAPSHOT.jar started by Yang in D:\CS\cs-coding)
+12:28:22.164 [main] INFO  c.c.c.CSBatchProcessingApplication - No active profile set, falling back to default profiles: default
+12:28:25.389 [main] INFO  c.c.c.CSBatchProcessingApplication - Started CSBatchProcessingApplication in 3.712 seconds (JVM running for 4.467)
+12:28:25.677 [main] INFO  c.c.c.l.JobCompletionNotificationListener - JOB Completed! Verify the results from the DB
+12:28:25.680 [main] INFO  c.c.c.l.JobCompletionNotificationListener - Found <EventDetail(id=scsmbstgra, duration=5, type=12345, host=APPLICATION_LOG, alert=true)> in the database.
+12:28:25.680 [main] INFO  c.c.c.l.JobCompletionNotificationListener - Found <EventDetail(id=scsmbstgrc, duration=8, type=null, host=null, alert=true)> in the database.
+12:28:25.680 [main] INFO  c.c.c.l.JobCompletionNotificationListener - Found <EventDetail(id=scsmbstgrb, duration=4, type=null, host=null, alert=false)> in the database.

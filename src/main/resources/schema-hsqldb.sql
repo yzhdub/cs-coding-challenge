@@ -1,0 +1,9 @@
+DROP TABLE EVENTDETAIL IF EXISTS;
+
+CREATE TABLE EVENTDETAIL  (
+    id VARCHAR(20),
+    duration INT,
+    host VARCHAR(20),
+    type VARCHAR(20),
+    alert BIT
+);
