@@ -1,6 +1,6 @@
 package com.cs.coding.listener;
 
-import com.cs.coding.models.EventDetail;
+import com.cs.coding.model.EventDetail;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.batch.core.BatchStatus;

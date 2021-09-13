@@ -1,6 +1,6 @@
 package com.cs.coding;
 
-import com.cs.coding.config.CSBatchConfiguration;
+import com.cs.coding.config.CSBatchConfig;
 import com.cs.coding.listener.JobCompletionNotificationListener;
 import org.junit.After;
 import org.junit.Test;
@@ -27,7 +27,7 @@ import static org.junit.Assert.assertThat;
 @RunWith(SpringRunner.class)
 @SpringBatchTest
 @EnableAutoConfiguration
-@ContextConfiguration(classes = { CSBatchConfiguration.class })
+@ContextConfiguration(classes = { CSBatchConfig.class })
 @TestExecutionListeners({ DependencyInjectionTestExecutionListener.class,
         DirtiesContextTestExecutionListener.class})
 @DirtiesContext(classMode = DirtiesContext.ClassMode.AFTER_CLASS)

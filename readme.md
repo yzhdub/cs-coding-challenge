@@ -1,5 +1,15 @@
 # CS Coding Assignemnt Java
 
+Updates:
+
+09/08/2021
+
+Before execution: 
+Start HSQLDB and update db info into application.properties, or remove db setting from application.propreties to use the in-memory version
+Otherwise the code will finish without any processing.
+Some updates: Using ItemstreamReader to take in a inputstream as parameter to try to make sure a large file can be consumed. 
+But to be honest I am not sure if this works, as it's hard to do a test.
+
 ### Environment:
 
 - Java 8 ( code compile level )
@@ -36,13 +46,17 @@ If there is any matching with the id then it will be removed from map, and the i
 The restriction of this way is the map might be not big enough if the file is huge, this depends on the JVM setting, but it's possible to cause memory leak due to unmatched items and failed to run if there is no memory left.
 I did not get a chance to do extreme test though.
 
-### Build:
+### Pre-build
 
-Update datasource URL based on your environment:
+Please update datasource URL based on your environment:
 spring.datasource.url=jdbc:hsqldb:hsql://localhost/mydb2
 
-$ mvn clean package
+If you are using HSQLDB, please start it before execute the application.
+Or you can use the in-memory version by removing all from application.properties
 
+### Build:
+
+$ mvn clean package
 
 ### Execution:
 
